@@ -101,9 +101,6 @@ if (isset($_SESSION['ime']))
         <p>Copyright &copy;<a href="#" title="DenisDzafo"> Denis Džafo </a></p>
     </footer>
     
- <script type="text/javascript">
-  setTimeout(function () { location.reload(true); }, 15000);
-</script>   
 
 </body>
     

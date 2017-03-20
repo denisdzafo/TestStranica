@@ -70,6 +70,7 @@ if($rezultat){
         <b>Objavljeno : <b/>'.$row['datum']. '<br />
         '.$row['tekst'].'<br />
         '.$row['detaljnije'].'<br />';
+        echo '<hr>';
     }
 }
 }
