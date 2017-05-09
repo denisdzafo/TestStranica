@@ -39,7 +39,7 @@ if (isset($_POST['submitted'])) {
 if ($result) {
 
 echo "Uloga korisnika je promjenjena";
-    
+
 
 } else {
 
@@ -50,8 +50,8 @@ echo "Uloga korisnika nije promjenjena";
 
 ?>
 <form action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
-    
+
     <p><input type="submit" name="submit" value="Promjeni ulogu korisnika" /></p>
 <input type="hidden" name="submitted" value="TRUE" /></p>
 </form>
-<div align="center"><a href="addadmin.php">Zatvorite ovaj prozor</a></div>
+<div align="center"><a href="addadmin.php?id">Zatvorite ovaj prozor</a></div>

@@ -19,7 +19,7 @@ $veza->exec("set names utf8");
 
     $query = $veza->prepare("SELECT name, ime, pass FROM korisnici WHERE ime=? and pass=?");
     $query->execute(array($ime,$pass));
- 
+
 $postojiLI=$query->rowCount();
 
 if(empty($postojiLI)){
@@ -38,22 +38,19 @@ if(empty($postojiLI)){
             $_SESSION['pass'] = $pass;
             $poruka= "Prijavljeni ste kao korisnik ".$ime;
             print "<p><a href='logoutKorisnik.php'>Odjava</a></p>";
-            print "<p><a href='../index.php'>Vrati se na početnu stranu</a></p>";
+            print "<p><a href='index.php'>Vrati se na početnu stranu</a></p>";
        }
        else $valid=false;
    }
 
 print "<p>".$poruka."</p>";
 
- 
+
 
         }
   if(!$valid) {
-           print"<p class=ispis><a href='../index.php'>Povratak</a></p>";
+           print"<p class=ispis><a href='index.php'>Povratak</a></p>";
         }
 
 
-         ?>    
-
-
-
+         ?>

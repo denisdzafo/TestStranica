@@ -16,14 +16,14 @@ exit();
     <head>
     <title> Ministarstvo obrazovanja Čeljigovići</title>
         <meta charset="utf-8"/>
-        <link rel="stylesheet" href="../stil/stil.css" type="text/css"/>
+        <link rel="stylesheet" href="stil/stil.css" type="text/css"/>
     </head>
 <body class="body">
     <header class="glavniheader">
-        <img src="../img/logo.png" alt="logo">
-        <h2 class="naslov"> Ministarstvo obrazovanja Čeljgovići 
+        <img src="img/logo.png" alt="logo">
+        <h2 class="naslov"> Ministarstvo obrazovanja Čeljgovići
         </h2>
-        
+
         <nav>
             <ul>
             <a href ="logout.php">Odjavi se</a>
@@ -31,23 +31,22 @@ exit();
          </nav>
      </header>
     <br>
-    
+
      <div class="glavnisadrzaj">
         <div class="sadrzaj">
-            <h2>Dobro došao Administratoru! Odaberite šta želite raditi:</h2> 
+            <h2>Dobro došao Administratoru! Odaberite šta želite raditi:</h2>
              <?php include 'news_manage.php';?>
-        </div>    
-    </div>   
-    
-    
+        </div>
+    </div>
 
-    
-    
+
+
+
+
 <SCRIPT src="javaScript/skripta.js"></SCRIPT>
 <SCRIPT src="javaScript/skriptaAjax.js"></SCRIPT>
 </body>
-    
-    
-    
-</html>
 
+
+
+</html>

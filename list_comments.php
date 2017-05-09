@@ -1,7 +1,7 @@
 
 <?php
 header('Content-Type: text/html; charset=utf-8');
-include ('mysql_connect2.php');
+include ('mysql_connect.php');
 
 if (isset($_GET['id'])) {
 

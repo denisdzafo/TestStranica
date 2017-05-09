@@ -143,7 +143,7 @@ a:hover, a:active{
     margin-top: 30%;
     border:1px solid #666;
     text-align:center;
-}    
+}
 .kontaktforma {
     margin-left: 150px;
     padding: 5px;
@@ -187,7 +187,7 @@ a:hover, a:active{
 {
 	visibility: hidden;
 }
-#obrazovanjeMeni 
+#obrazovanjeMeni
 {
 	background-color: #666;
     color: white;
@@ -218,4 +218,8 @@ a:hover, a:active{
 #postanskiMjesto{
     color: red;
     visibility: hidden;
+}
+
+.sesija{
+  float: left;
 }

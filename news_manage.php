@@ -17,11 +17,11 @@ $result = @mysql_query($query);
 
 if ($result) {
 
-    
+
 echo '<div align="center">
 
 <p><a href="addnews.php?id">Dodaj vijest</a></td></p>
-<p><a href="addadmin.php?id">Dodaj privilegije administratora ili obriši korisnika</a></td></p>
+<p><a href="addadmin.php?id">Dodaj privilegije administratora</a></td></p>
 <p><a href="destroyadmin.php?id">Oduzmi privilegije administratora</a></td></p>
 <table border="0">
 

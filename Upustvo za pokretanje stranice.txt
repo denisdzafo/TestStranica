@@ -1,9 +1,0 @@
-Pokretanje stranice:
-Potrebno je imati lokalni web server. Može se pronaæi na linku ispod. Nakon skidanja fajla, instalirati web server, ne mjenjajuæi ništa. Otpakovati web stranicu na lokaciju C:\wamp64\www 
-Izvršti importovanje baze podataka tako što æe te ukucati u web browseru http://localhost/phpmyadmin
-Unjeti u polju username root, a  polje password ostaviti prazno. U lijevoj strani panela kliknuti na New i napraviti bazu podataka sa imenom webstranica. Nakon što se pojavila nova baza podataka webstranica, potrebno je importovati baze comments, news_posts, korisnici. Import se vrši preko butona Import.
-Pokrenuti web stranicu tako što æe te u web browser ukucati localhost 
-
-
-Link za download web servera:
-http://www.wampserver.com/en/
