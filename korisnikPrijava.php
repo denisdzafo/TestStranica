@@ -4,7 +4,7 @@ $ime=$sifra=$poruka="";
 $valid=true;
 $korisnik="korisnik";
 session_start();
-$veza = new PDO("mysql:dbname=korisnici;host=localhost;charset=utf8", "root", "");
+$veza = new PDO("mysql:dbname=webstranica;host=localhost;charset=utf8", "root", "");
 $veza->exec("set names utf8");
 
     if (isset($_SESSION['ime'])){
